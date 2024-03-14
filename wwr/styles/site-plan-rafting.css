@@ -1,8 +1,12 @@
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --primary-color: #0D3B66;
@@ -10,8 +14,8 @@ body {
     --accent1-color: #EE964B;
     --accent-color: #F95738;
 
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: Roboto, sans-serif;
+    --paragraph-font: Montserrat, sans-serif;
 
     --nav-background-color: #FAF0CA;
     --nav-link-color: #0e0d0d;
