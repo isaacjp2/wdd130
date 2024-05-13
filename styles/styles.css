@@ -40,9 +40,11 @@ img {
 h1 {
     color: #990000;
 }
+
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -52,9 +54,9 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 440px;
-    left: 150px;
-    color: #eee;
+    top: 110px;
+    left: 90px;
+    color: #ffffff;
 }
 
 
@@ -73,6 +75,6 @@ p {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #CCCC99;
+    color: #000000;
 }
